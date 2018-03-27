@@ -115,6 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ConcreteObserver.hpp" />
+    <ClInclude Include="Observer.hpp" />
+    <ClInclude Include="Subject.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConcreteObserver.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Subject.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
